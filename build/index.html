@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Glitter - Gitter with power!</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/core.css">
+  </head>
+  <body>
+    <div id="left-ui">
+      <header>
+        <p><img src="https://avatars1.githubusercontent.com/u/5457769?v=3&s=30">Michiel Bijl</p>
+        <button type="button" aria-controls="site-nav">Navigation</button>
+        <nav id="site-nav" aria-label="Site" hidden>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Billing</a></li>
+            <li><a href="#">Get Gitter apps</a></li>
+            <li><a href="#">Sign out</a></li>
+          </ul>
+        </nav>
+      </header>
+      <nav id="channel-list" aria-labelledby="channel-list-title">
+        <h2 id="channel-list-title">Channel list</h2>
+        <ul>
+          <li>
+            <a href="#a11ySlackers">
+              <img src="https://avatars0.githubusercontent.com/w3c?&s=16" alt="">w3c/a11ySlackers
+            </a>
+            <button><span>Remove room “w3c/a11ySlackers”</span></button>
+          </li>
+          <li>
+            <a href="#Leonie">
+              <img src="https://avatars1.githubusercontent.com/LjWatson?&s=16" alt="">Léonie
+            </a>
+            <button><span>Remove private chat with “Léonie”</span></button>
+          </li>
+          <li>
+            <a href="#Mallory">
+              <img src="https://avatars1.githubusercontent.com/StommePoes?&s=16" alt="">Mallory
+            </a>
+            <button><span>Remove private chat with “Mallory”</span></button>
+          </li>
+          <li>
+            <a href="#Job">
+              <img src="https://avatars0.githubusercontent.com/jkva?&s=16" alt="">Job
+            </a>
+            <button><span>Remove private chat with “Job”</span></button>
+          </li>
+          <li>
+            <a href="#Jemma">
+              <img src="https://avatars1.githubusercontent.com/a11ydoer?&s=16" alt="">JaEun Jemma Ku
+            </a>
+            <button><span>Remove private chat with “JaEun Jemma Ku”</span></button>
+          </li>
+          <li>
+            <a href="#apg">
+              <img src="https://avatars0.githubusercontent.com/w3c?&s=16" alt="">w3c/apg
+            </a>
+            <button><span>Remove room “w3c/apg”</span></button>
+          </li>
+        </ul>
+        <h3>Your organisations</h3>
+        <a href="#w3c"><img src="https://avatars0.githubusercontent.com/w3c?&s=16" alt="">w3c</a>
+      </nav>
+      <div role="toolbar">
+        <button type="button" id="create-room">Create a room</button>
+      </div>
+    </div>
+    <main>
+      <header>
+        <img src="https://avatars0.githubusercontent.com/w3c?&s=48" alt="w3c logo">
+        <h1>Chat room: w3c/a11ySlackers</h1>
+        <a href="#w3c-rooms"><span>W3C Rooms</span></a>
+        <button type="button"><span>Favourite room</span></button>
+        <button type="button"><span>Room settings</span></button>
+      </header>
+      <div role="feed">
+        <article>
+          <header>
+            <img src="" alt="">
+            <p>Michiel Bijl</p>
+            <p><span>wrote on</span> <a href="#time">22:35</a></p>
+            <button type="button"><span>Read by</span></button>
+            <button type="button" aria-haspopup="true"><span>Message options</span></button>
+          </header>
+          <p>Kittens are cute!</p>
+        </article>
+      </div>
+      <form action="">
+        <img src="" alt="Your avatar">
+        <label>
+          <span>Your message</span>
+          <div role="input" contenteditable>Supports GitHub flavoured markdown.</div>
+        </label>
+        <button type="button"><span>Single line mode</span></button>
+        <button type="button"><span>Help: Markdown syntax</span></button>
+      </form>
+    </main>
+    <aside>
+      <form action="" role="search">
+        <input type="search" placeholder="Search…">
+        <button><span>Search</span></button>
+      </form>
+      <section>
+        <h2>People</h2>
+      </section>
+      <section>
+        <h2>Activity</h2>
+      </section>
+      <a href=""><img src=""><span>Gitter support</span></a>
+    </aside>
+  </body>
+</html>

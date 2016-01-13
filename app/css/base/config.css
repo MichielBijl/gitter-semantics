@@ -1,0 +1,5 @@
+:root {
+  --sidebar-background: hsl(345, 4%, 21%);
+  --button-colour: hsl(157, 64%, 36%);
+  --focus-ring-colour: hsl(208, 57%, 46%);
+}
